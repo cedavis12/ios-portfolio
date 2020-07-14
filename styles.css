@@ -27,6 +27,7 @@ a.nav-link.active {
 
 footer {
   margin-top: 50px;
+  box-sizing: unset;
 }
 
 section {
@@ -43,7 +44,8 @@ a:hover {
   text-decoration: none;
 }
 
-.btn:focus, .btn:active:focus {
+.btn:focus,
+.btn:active:focus {
   outline: none !important;
   box-shadow: none !important;
   color: var(--coral);
@@ -97,7 +99,8 @@ nav#secondary-nav.navbar a {
 
 .welcome-image,
 .jumbotron {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/hero-image.png) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/hero-image.png) center center;
   opacity: 0.75;
 }
 
@@ -148,7 +151,6 @@ nav#secondary-nav.navbar a {
   color: var(--coral);
 }
 
-
 #about::before {
   display: block;
   content: ' ';
@@ -171,7 +173,7 @@ nav#secondary-nav.navbar a {
   -moz-border-radius: 100%;
   border-radius: 100%;
   /* color: var(--almost-black); */
-  color: var(--vanilla)
+  color: var(--vanilla);
 }
 
 .badge:hover {
@@ -191,7 +193,6 @@ nav#secondary-nav.navbar a {
   color: var(--coral);
   font-weight: 600;
 }
-
 
 hr.styled {
   border: 0;
@@ -223,7 +224,7 @@ ul.features {
 }
 
 .features li::before {
-  content: "> ";
+  content: '> ';
   color: var(--coral);
 }
 
@@ -238,9 +239,9 @@ button.btn.btn-primary {
 }
 
 .contact-link:hover {
-    transform: scale(1.2);
-    background: var(--vanilla) !important;
-    color: var(--coral);  
+  transform: scale(1.2);
+  background: var(--vanilla) !important;
+  color: var(--coral);
 }
 
 /* FOOTER */
@@ -257,8 +258,7 @@ footer .nav-link,
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 990px) {
+/* @media only screen and (max-width: 990px) {
   .list-group.list-group-horizontal-sm {
     display: none;
-  }
-
+  } */
