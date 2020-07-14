@@ -21,7 +21,8 @@ body {
 }
 
 a.nav-link.active {
-  text-decoration: underline overline solid var(--coral);
+  text-decoration-line: underline overline;
+  text-decoration-color: var(--coral);
   font-weight: 800;
 }
 
@@ -36,7 +37,8 @@ section {
 
 .section-title,
 div > h3.section-title {
-  text-decoration: underline overline solid var(--coral);
+  text-decoration-line: underline overline;
+  text-decoration-color: var(--coral);
 }
 
 a:hover {
@@ -54,7 +56,8 @@ a:hover {
 /* NAVIGATION */
 
 a.nav-link:hover {
-  text-decoration: underline solid var(--coral);
+  text-decoration-line: underline overline;
+  text-decoration-color: var(--coral);
   font-weight: 600;
 }
 
@@ -112,7 +115,8 @@ nav#secondary-nav.navbar a {
   text-align: center;
   font-weight: 800;
   font-size: 3rem;
-  text-decoration: underline solid var(--coral);
+  text-decoration-line: underline;
+  text-decoration-color: var(--coral);
 }
 
 .welcome-text a {
@@ -210,7 +214,8 @@ li i.fab {
 h3.project-title,
 h3.blog-title a,
 h1.blog-title {
-  text-decoration: underline solid var(--coral);
+  text-decoration-line: underline;
+  text-decoration-color: var(--coral);
   font-weight: 600;
 }
 
@@ -255,10 +260,3 @@ footer .nav-link,
 .coral {
   color: var(--coral);
 }
-
-/* MEDIA QUERIES */
-
-/* @media only screen and (max-width: 990px) {
-  .list-group.list-group-horizontal-sm {
-    display: none;
-  } */
